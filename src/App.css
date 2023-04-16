@@ -1,0 +1,116 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Set the height of the logo images */
+.App-logo,
+.App-logoangular,
+.App-logogit,
+.App-logotype,
+.App-logospring,
+.App-logojavascript,
+.App-logohtml,
+.App-logocss,
+.App-logosql,
+.App-logopostgres,
+.App-logojasper,
+.App-logodocker {
+  padding-left: 10px;
+  height: 10vmin;
+  pointer-events: none;
+}
+
+/* Set the height of the row-header */
+#row-header {
+  background-color:aliceblue;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: right;
+  line-height: 100px;
+  padding-right: 50px;
+}
+
+a.App-link {
+  text-decoration: none;
+}
+
+
+/* Set the background color and height of the col-header */
+#col-header {
+  background-color: blue;
+  height: 100px
+}
+
+/* Set the height and position of the logo */
+.App-logocar {
+  height: 100px;
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  /* Spin the logo image */
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Style the header */
+.App-header {
+  background-color: #ffffff;
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-footer {
+  margin-top: auto;
+  padding-bottom: 20px;
+}
+
+/* Style the link */
+.App-link {
+  color: #000000;
+}
+
+/* Spin the logo image */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Set the width of the columns for screens larger than 992px */
+@media (min-width: 992px) {
+  .gy-1 > div {
+    width: 16.6666667%;
+  }
+}
+
+/* Set the width of the columns for screens between 768px and 992px */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .gy-1 > div {
+    width: 25%;
+  }
+}
+
+/* Set the width of the columns for screens smaller than 768px */
+@media (max-width: 767.98px) {
+  .gy-1 > div {
+    width: 50%;
+  }
+}
