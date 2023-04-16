@@ -25,18 +25,22 @@
 
 /* Set the height of the row-header */
 #row-header {
-  background-color:aliceblue;
-  height: 100px;
+  background-color:rgb(242, 244, 246);
+  height: 60px;
   display: flex;
-  align-items: center;
+  align-items: center; /* align items vertically */
   justify-content: space-between;
-  text-align: right;
-  line-height: 100px;
   padding-right: 50px;
 }
 
 a.App-link {
   text-decoration: none;
+  color: #2d2828;
+  transition: color 0.3s ease;
+}
+
+.App-link:hover {
+  color: #0366d6;
 }
 
 
@@ -48,10 +52,8 @@ a.App-link {
 
 /* Set the height and position of the logo */
 .App-logocar {
-  height: 100px;
-  position: fixed; 
-  top: 0; 
-  left: 0;
+  height: 50px;
+  margin-right: 10px;
   pointer-events: none;
 }
 
@@ -64,19 +66,23 @@ a.App-link {
 
 /* Style the header */
 .App-header {
-  background-color: #ffffff;
-  margin-top: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50vh;
 }
 
 .App-footer {
   margin-top: auto;
   padding-bottom: 20px;
+}
+
+.Footer-link {
+  padding-top: 100px;
+  text-decoration: none;
+  color: #302a2a;
+  transition: color 0.3s ease;
 }
 
 /* Style the link */

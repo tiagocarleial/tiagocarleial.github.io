@@ -24,58 +24,63 @@ function App() {
           <div className="col-lg-8"></div>
           <div className="col-lg-2 text-end">
             <a href="https://github.com/tiagocarleial" className="App-link" target="_blank" rel="noopener noreferrer">
-              Contact
+              Github
             </a>
           </div>
         </div>
       </div>
       <header className="App-header">
+     
+
       </header>
       <footer className="App-footer">
         
-        <div className="row gy-1" style={{ display: "flex", justifyContent: "space-between" }}>
-          <div className="col-lg-2">
-            <img src={logo} className="App-logo" alt="logo" />
+          <div className="row gy-1" style={{ display: "flex", justifyContent: "space-between", paddingTop: "50px" }}>
+            <div className="col-lg-2">
+              <img src={logo} className="App-logo" alt="logo" />
+            </div>
+            <div className="col-lg-2">
+              <img src={logoangular} className="App-logoangular" alt="logoangular" />
+            </div>
+            <div className="col-lg-2">
+              <img src={logogit} className="App-logogit" alt="logogit" />
+            </div>
+            <div className="col-lg-2">
+              <img src={logotype} className="App-logotype" alt="logotype" />
+            </div>
+            <div className="col-lg-2">
+              <img src={logospring} className="App-logospring" alt="logospring" />
+            </div>
+            <div className="col-lg-2">
+              <img src={logojavascript} className="App-logojavascript" alt="logojavascript" />
+            </div>
           </div>
-          <div className="col-lg-2">
-            <img src={logoangular} className="App-logoangular" alt="logoangular" />
+      
+
+          <div className="row gy-1" style={{ display: "flex", justifyContent: "space-between", paddingBottom: "30px" }}>
+            <div className="col-lg-2">
+              <img src={logohtml} className="App-logohtml" alt="logohtml" />
+            </div>
+            <div className="col-lg-2">
+              <img src={logocss} className="App-logocss" alt="logocss" />
+            </div>
+            <div className="col-lg-2">
+              <img src={logosql} className="App-logosql" alt="logosql" />
+            </div>
+            <div className="col-lg-2">
+              <img src={logopostgres} className="App-logopostgres" alt="logopostgres" />
+            </div>
+            <div className="col-lg-2">
+              <img src={logojasper} className="App-logojasper" alt="logojasper" />
+            </div>
+            <div className="col-lg-2">
+              <img src={logodocker} className="App-logodocker" alt="logodocker" />
+            </div>
           </div>
-          <div className="col-lg-2">
-            <img src={logogit} className="App-logogit" alt="logogit" />
-          </div>
-          <div className="col-lg-2">
-            <img src={logotype} className="App-logotype" alt="logotype" />
-          </div>
-          <div className="col-lg-2">
-            <img src={logospring} className="App-logospring" alt="logospring" />
-          </div>
-          <div className="col-lg-2">
-            <img src={logojavascript} className="App-logojavascript" alt="logojavascript" />
-          </div>
-          <div className="col-lg-2">
-            <img src={logohtml} className="App-logohtml" alt="logohtml" />
-          </div>
-          <div className="col-lg-2">
-            <img src={logocss} className="App-logocss" alt="logocss" />
-          </div>
-          <div className="col-lg-2">
-            <img src={logosql} className="App-logosql" alt="logosql" />
-          </div>
-          <div className="col-lg-2">
-            <img src={logopostgres} className="App-logopostgres" alt="logopostgres" />
-          </div>
-          <div className="col-lg-2">
-            <img src={logojasper} className="App-logojasper" alt="logojasper" />
-          </div>
-          <div className="col-lg-2">
-            <img src={logodocker} className="App-logodocker" alt="logodocker" />
-          </div>
-        </div>
-        <p>
-         
-        </p>
-        <a
-          className="App-link"
+
+    
+        <a 
+          className="Footer-link"
           href="https://tiagocarleial.github.io"
           target="_blank"
           rel="noopener noreferrer"
