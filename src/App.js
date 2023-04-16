@@ -30,11 +30,11 @@ function App() {
         </div>
       </div>
       <header className="App-header">
-     
-
       </header>
       <footer className="App-footer">
-        
+
+        <div className="card-container">
+          <h2>Experience</h2>
           <div className="row gy-1" style={{ display: "flex", justifyContent: "space-between", paddingTop: "50px", paddingBottom: "30px" }}>
             <div className="col-lg-2">
               <img src={logo} className="App-logo" alt="logo" />
@@ -55,7 +55,6 @@ function App() {
               <img src={logojavascript} className="App-logojavascript" alt="logojavascript" />
             </div>
           </div>
-      
 
           <div className="row gy-1" style={{ display: "flex", justifyContent: "space-between", paddingBottom: "30px" }}>
             <div className="col-lg-2">
@@ -77,17 +76,16 @@ function App() {
               <img src={logodocker} className="App-logodocker" alt="logodocker" />
             </div>
           </div>
+          <a
+            className="Footer-link"
+            href="https://tiagocarleial.github.io"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            tiagocarleial@gmail.com
+          </a>
+        </div>
 
-    
-        <a 
-          className="Footer-link"
-          href="https://tiagocarleial.github.io"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          tiagocarleial@gmail.com
-        </a>
-   
       </footer>
     </div>
   );
