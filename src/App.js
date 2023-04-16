@@ -35,7 +35,7 @@ function App() {
       </header>
       <footer className="App-footer">
         
-          <div className="row gy-1" style={{ display: "flex", justifyContent: "space-between", paddingTop: "50px" }}>
+          <div className="row gy-1" style={{ display: "flex", justifyContent: "space-between", paddingTop: "50px", paddingBottom: "30px" }}>
             <div className="col-lg-2">
               <img src={logo} className="App-logo" alt="logo" />
             </div>

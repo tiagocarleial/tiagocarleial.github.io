@@ -31,6 +31,7 @@
   align-items: center; /* align items vertically */
   justify-content: space-between;
   padding-right: 50px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 a.App-link {
@@ -71,17 +72,23 @@ a.App-link {
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .App-footer {
   margin-top: auto;
   padding-bottom: 20px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
 }
 
 .Footer-link {
-  padding-top: 100px;
   text-decoration: none;
-  color: #302a2a;
+  color: #000000;
+}
+
+.Footer-link:hover {
+  color: #8a60d3;
   transition: color 0.3s ease;
 }
 
