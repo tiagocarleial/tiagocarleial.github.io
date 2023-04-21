@@ -18,14 +18,15 @@
 .App-logopostgres,
 .App-logojasper,
 .App-logodocker {
-  padding-left: 10px;
+  max-width: 100%;
+  
   height: 10vmin;
   pointer-events: none;
 }
 
 /* Set the height of the row-header */
 #row-header {
-  background-color:rgb(242, 244, 246);
+  background-color:rgb(255, 255, 255);
   height: 60px;
   display: flex;
   align-items: center; /* align items vertically */
@@ -58,6 +59,11 @@ a.App-link {
   pointer-events: none;
 }
 
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   /* Spin the logo image */
   .App-logo {
@@ -67,7 +73,7 @@ a.App-link {
 
 /* Style the header */
 .App-header {
-  background-image: url("background.jpg");
+  background-image: url("background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -106,6 +112,9 @@ a.App-link {
 }
 
 .Footer-link {
+  
+  height: 10vmin;
+  max-width: 100%;
   text-decoration: none;
   color: #000000;
 }
@@ -144,9 +153,25 @@ a.App-link {
   }
 }
 
-/* Set the width of the columns for screens smaller than 768px */
-@media (max-width: 767.98px) {
+/* Set the width of the columns for screens between 630px and 767.98px */
+@media (min-width: 630px) and (max-width: 767.98px) {
+  .gy-1 > div {
+    width: 33%;
+  }
+}
+
+/* Set the width of the columns for screens smaller than 630px */
+@media (max-width: 629.98px) {
   .gy-1 > div {
     width: 50%;
   }
 }
+
+
+
+
+
+
+
+
+
