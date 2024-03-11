@@ -1,0 +1,19 @@
+.App-footer {
+    margin-top: 20px;
+    padding-bottom: 20px;
+ 
+}
+
+.Footer-link {
+  
+    height: 10vmin;
+    max-width: 100%;
+    margin-right: 40px;
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  .Footer-link:hover {
+    color: #8a60d3;
+    transition: color 0.3s ease;
+  }

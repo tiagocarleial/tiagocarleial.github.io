@@ -35,15 +35,7 @@
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-a.App-link {
-  text-decoration: none;
-  color: #2d2828;
-  transition: color 0.3s ease;
-}
 
-.App-link:hover {
-  color: #0366d6;
-}
 
 
 /* Set the background color and height of the col-header */
@@ -52,12 +44,7 @@ a.App-link {
   height: 100px
 }
 
-/* Set the height and position of the logo */
-.App-logocar {
-  height: 50px;
-  margin-right: 10px;
-  pointer-events: none;
-}
+
 
 .row {
   margin-right: 0;
@@ -71,19 +58,9 @@ a.App-link {
   }
 }
 
-/* Style the header */
-.App-header {
-  background-image: url("background.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100vh;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.App-footer {
+.App-main {
   margin-top: auto;
-  padding-bottom: 20px;
+  padding-bottom: 20pxpx;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
 }
@@ -111,18 +88,7 @@ a.App-link {
   margin-bottom: 5px;
 }
 
-.Footer-link {
-  
-  height: 10vmin;
-  max-width: 100%;
-  text-decoration: none;
-  color: #000000;
-}
 
-.Footer-link:hover {
-  color: #8a60d3;
-  transition: color 0.3s ease;
-}
 
 /* Style the link */
 .App-link {
@@ -165,6 +131,37 @@ a.App-link {
   .gy-1 > div {
     width: 50%;
   }
+}
+
+/* Add these styles to your App.css or a relevant CSS file */
+.icon-container {
+  position: relative;
+  display: inline-block;
+}
+
+.icon-overlay {
+  cursor:pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.icon-container:hover .icon-overlay {
+  opacity: 1;
+}
+
+.icon-text {
+  
+  color: rgb(0, 0, 0);
+  font-size: 15px /* Adjust size as needed */
 }
 
 
